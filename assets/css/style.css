@@ -85,6 +85,7 @@ body{
     font-size:20px;
 }
 
+/* this is for grid layout of navigation bar */
 .grid-container1 {
     display: grid;
     box-sizing: border-box;
@@ -93,6 +94,7 @@ body{
     margin-bottom:5%;
   }
 
+/* this is grid layout for about me page */
 .grid-container2 {
     display: grid;
     grid-template-columns: auto auto ;
@@ -106,6 +108,7 @@ body{
     border-radius: 1000px;
 }
 
+/* this is grid layout for the projects page */
 .grid-container3{
     display: grid;
     grid-template-columns: auto auto auto;
@@ -177,3 +180,9 @@ body{
     max-width:55%;
     max-height:55%;
   }
+
+/* for the languages used section for each card in projects */
+.languagesText{
+  font-size:13px;
+  font-weight: 100;
+}
